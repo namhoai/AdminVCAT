@@ -214,7 +214,7 @@ class OrderPrintPreview extends React.Component {
             </Select>
             )}
         </FormItem>
-        <FormItem label="开始运单号" {...formItemLayout}>
+        <FormItem label="Start the waybill number" {...formItemLayout}>
           <FormItem label="" className="inline" style={{ width: 294 }}>
             {getFieldDecorator('startNum', {
               initialValue: this.state.expressNum
@@ -222,7 +222,7 @@ class OrderPrintPreview extends React.Component {
               <Input />
             )}
           </FormItem>
-          <FormItem label="顺序递增" className="inline" {...formItemInlineLayout1}>
+          <FormItem label="Ascending order" className="inline" {...formItemInlineLayout1}>
             {getFieldDecorator('sortInter', {
               initialValue: this.state.sortInter
             })(
@@ -230,29 +230,29 @@ class OrderPrintPreview extends React.Component {
             )}
           </FormItem>
         </FormItem>
-        <FormItem label="纸张边距" {...formItemLayout}>
-          <FormItem label="上" className="inline" {...formItemInlineLayout}>
+        <FormItem label="Paper margins" {...formItemLayout}>
+          <FormItem label="on" className="inline" {...formItemInlineLayout}>
             {getFieldDecorator('paperPaddingUp', {
               initialValue: this.state.paperPaddingUp
             })(
               <InputNumber min={0} max={10} step={0.01} />
             )}
           </FormItem>
-          <FormItem label="下" className="inline" {...formItemInlineLayout}>
+          <FormItem label="under" className="inline" {...formItemInlineLayout}>
             {getFieldDecorator('paperPaddingDown', {
               initialValue: this.state.paperPaddingDown
             })(
               <InputNumber min={0} max={10} step={0.01} />
             )}
           </FormItem>
-          <FormItem label="左" className="inline" {...formItemInlineLayout}>
+          <FormItem label="left" className="inline" {...formItemInlineLayout}>
             {getFieldDecorator('paperPaddingLeft', {
               initialValue: this.state.paperPaddingLeft
             })(
               <InputNumber min={0} max={10} step={0.01} />
             )}
           </FormItem>
-          <FormItem label="右" className="inline" {...formItemInlineLayout}>
+          <FormItem label="right" className="inline" {...formItemInlineLayout}>
             {getFieldDecorator('paperPaddingRight', {
               initialValue: this.state.paperPaddingRight
             })(

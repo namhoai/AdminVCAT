@@ -13,7 +13,7 @@ const columns = [{
   dataIndex: 'id',
   width: 50
 }, {
-  title: 'Goods name',
+  title: 'Good name',
   key: 'goodsName',
   dataIndex: 'goodsName',
   width: 200

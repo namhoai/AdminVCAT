@@ -265,7 +265,7 @@ class OrderList extends React.Component {
       onShowSizeChange: this.onShowSizeChange.bind(this)
     };
     const columns = [{
-      title: 'Id',
+      title: 'Id order list',
       key: 'id',
       dataIndex: 'id',
       width: 50

@@ -1,11 +1,12 @@
 import React from 'react';
 import App from './app';
-import CDashBoard from '../components/dashboard';
+// import CDashBoard from '../components/dashboard';
+import CNTG from '../app/cntg/components';
 
 const DashBoard = () => {
   return (<div>
     <App>
-      <CDashBoard />
+      <CNTG />
     </App>
   </div>);
 };

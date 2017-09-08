@@ -14,8 +14,10 @@ function login(data) {
 }
 
 function* loginRequest(data) {
+    debugger;
   try {
     const response = yield call(login, data);
+    debugger;
     if (response.data.code === 200) {
       let isAdmin = false;
       if (data.username.toLowerCase() === 'admin') {
@@ -23,20 +25,7 @@ function* loginRequest(data) {
       }
       yield put(loginSuccess(response.data.data.token, isAdmin, data.username));
     } else {
-      let msg='';
-      switch(response.data.code) {
-      case 1:
-        msg='¶à´ÎµÇÂ¼Òì³£';
-        break;
-      case 2:
-        msg='ÃÜÂë´íÎó';
-        break;
-      case 3:
-        msg='·þÎñÆ÷Òì³£';
-        break;
-      default:
-        msg='µÇÂ¼Ê§°Ü';
-      }
+      let msg=response.data.msg;
       yield put(loginFailure({
         code: response.data.code,
         msg
@@ -45,7 +34,7 @@ function* loginRequest(data) {
   } catch(e) {
     yield put(loginFailure({
         code: 404,
-        msg: 'µÇÂ¼Ê§°Ü'
+        msg: 'not connet network !'
     }));
   }
 }

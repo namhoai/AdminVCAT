@@ -1,0 +1,76 @@
+.avatar-orderItem {
+  float: left;
+  margin-top: 5px;
+  + span {
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    color: black;
+  }
+}
+.button-check-orderItem {
+  float: right;
+  margin-top: 14px;
+  margin-right: 10px;
+}
+
+.button-check-orderItem + span{
+  position: absolute;
+  bottom: 1px;
+  right: 5px;
+  color: black;
+}
+
+.button-delete-orderItem{
+  margin-top: -70px;
+  position: absolute;
+  z-index: 2;
+  right: 2px;
+  width: 18px !important;
+  height: 18px !important;
+  opacity: 0;
+}
+
+.button-check-orderItem.ant-btn-circle.ant-btn-sm {
+  width: 20px;
+  height: 20px;
+}
+.button-new-orderItem {
+  height: 17px;
+  margin-left: 10px;
+}
+.orderItem {
+ .ant-card-body {
+  padding: 10px 15px;
+ }
+}
+.orderItem:hover .button-delete-orderItem.ant-btn-circle.ant-btn-sm {
+  opacity: 1;
+}
+.control-order {
+  float: right;
+  margin-right: 2px;
+}
+.margin-top {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ant-popover.ant-popover-placement-right {
+  margin: 300px 0px !important;
+}
+.info-overview {
+  padding: 10px;
+  margin: 10px;
+  .ant-progress.ant-progress-circle{
+    padding-left: 10px;
+    padding-right: 3px;
+    float: none;
+  }
+  text-align: center;
+}
+.ant-time-picker{
+  float: right;
+  line-height: 50px;
+}

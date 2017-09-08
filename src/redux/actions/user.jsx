@@ -1,6 +1,7 @@
 import { REQUEST_DATA, RECIVE_DATA, LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, LOGOUT_REQUEST, LOGOUT_SUCCESS, TOGGLE_ORDER_DETAIL } from './actionstype.js';
 
 export const loginRequest = (data) => {
+  debugger;
   return { type: LOGIN_REQUEST, payload: data };
 };
 export const loginSuccess = (token, isAdmin, userName) => {

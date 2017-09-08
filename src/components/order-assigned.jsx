@@ -10,7 +10,7 @@ const columns = [{
   key: 'id',
   dataIndex: 'id'
 }, {
-  title: 'Goods Name',
+  title: 'Name',
   key: 'goodsName',
   dataIndex: 'goodsName'
 }, {

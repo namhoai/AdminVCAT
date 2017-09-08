@@ -2,12 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f12b1cc-72cf-4d7a-9d12-c9952280d876" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/base/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/actions/actionstype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/actions/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/constants/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/reducers/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/selecter/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cvptg/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/dvvc/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/avar.gif" afterPath="$PROJECT_DIR$/src/assets/imgs/avar.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/demo.gif" afterPath="$PROJECT_DIR$/src/assets/imgs/demo.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/logo.png" afterPath="$PROJECT_DIR$/src/assets/imgs/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/react-antd-webpack2-sagas-router4.iml" afterPath="$PROJECT_DIR$/.idea/react-antd-webpack2-sagas-router4.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/env.js" afterPath="$PROJECT_DIR$/config/env.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/paths.js" afterPath="$PROJECT_DIR$/config/paths.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/polyfills.js" afterPath="$PROJECT_DIR$/config/polyfills.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockjs/index.js" afterPath="$PROJECT_DIR$/mockjs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/LodopFuncs.js" afterPath="$PROJECT_DIR$/public/js/LodopFuncs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/printbase.js" afterPath="$PROJECT_DIR$/public/js/printbase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="$PROJECT_DIR$/public/manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/build.js" afterPath="$PROJECT_DIR$/scripts/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/start.js" afterPath="$PROJECT_DIR$/scripts/start.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test.js" afterPath="$PROJECT_DIR$/scripts/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/config.js" afterPath="$PROJECT_DIR$/src/api/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/index.js" afterPath="$PROJECT_DIR$/src/api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/resource.js" afterPath="$PROJECT_DIR$/src/api/resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/express.svg" afterPath="$PROJECT_DIR$/src/assets/imgs/express.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/logo.svg" afterPath="$PROJECT_DIR$/src/assets/imgs/logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/orders.svg" afterPath="$PROJECT_DIR$/src/assets/imgs/orders.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/app.less" afterPath="$PROJECT_DIR$/src/assets/less/app.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/dashboard.less" afterPath="$PROJECT_DIR$/src/assets/less/dashboard.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/dialog.less" afterPath="$PROJECT_DIR$/src/assets/less/dialog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/nomatch.less" afterPath="$PROJECT_DIR$/src/assets/less/nomatch.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/order-detail.less" afterPath="$PROJECT_DIR$/src/assets/less/order-detail.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/order-print-preview.less" afterPath="$PROJECT_DIR$/src/assets/less/order-print-preview.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/sender-item.less" afterPath="$PROJECT_DIR$/src/assets/less/sender-item.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/sender-new.less" afterPath="$PROJECT_DIR$/src/assets/less/sender-new.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/DropOption/index.js" afterPath="$PROJECT_DIR$/src/components/DropOption/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/dashboard.jsx" afterPath="$PROJECT_DIR$/src/components/dashboard.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/loading.jsx" afterPath="$PROJECT_DIR$/src/components/loading.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/login.jsx" afterPath="$PROJECT_DIR$/src/components/login.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/logout.jsx" afterPath="$PROJECT_DIR$/src/components/logout.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-assigned.jsx" afterPath="$PROJECT_DIR$/src/components/order-assigned.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-detail.jsx" afterPath="$PROJECT_DIR$/src/components/order-detail.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-print-preview.jsx" afterPath="$PROJECT_DIR$/src/components/order-print-preview.jsx" />
@@ -30,10 +94,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/user-add.jsx" afterPath="$PROJECT_DIR$/src/components/user-add.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/userlist.jsx" afterPath="$PROJECT_DIR$/src/components/userlist.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/app.jsx" afterPath="$PROJECT_DIR$/src/containers/app.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/dashboard.jsx" afterPath="$PROJECT_DIR$/src/containers/dashboard.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/express.jsx" afterPath="$PROJECT_DIR$/src/containers/express.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/nomatch.jsx" afterPath="$PROJECT_DIR$/src/containers/nomatch.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/orders.jsx" afterPath="$PROJECT_DIR$/src/containers/orders.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/print.jsx" afterPath="$PROJECT_DIR$/src/containers/print.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/scroll-to-top.jsx" afterPath="$PROJECT_DIR$/src/containers/scroll-to-top.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/usermanager.jsx" afterPath="$PROJECT_DIR$/src/containers/usermanager.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/http/index.js" afterPath="$PROJECT_DIR$/src/http/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/actionstype.js" afterPath="$PROJECT_DIR$/src/redux/actions/actionstype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/menu.jsx" afterPath="$PROJECT_DIR$/src/redux/actions/menu.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/user.jsx" afterPath="$PROJECT_DIR$/src/redux/actions/user.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/index.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/menu.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/menu.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/user.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/user.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/fetchdata.jsx" afterPath="$PROJECT_DIR$/src/redux/sagas/fetchdata.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/index.js" afterPath="$PROJECT_DIR$/src/redux/sagas/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/signin.jsx" afterPath="$PROJECT_DIR$/src/redux/sagas/signin.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/signout.jsx" afterPath="$PROJECT_DIR$/src/redux/sagas/signout.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/store/index.js" afterPath="$PROJECT_DIR$/src/redux/store/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/city.js" afterPath="$PROJECT_DIR$/src/utils/city.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/index.js" afterPath="$PROJECT_DIR$/src/utils/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/init.js" afterPath="$PROJECT_DIR$/src/utils/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/menu.jsx" afterPath="$PROJECT_DIR$/src/utils/menu.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/print.js" afterPath="$PROJECT_DIR$/src/utils/print.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,93 +133,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order-detail.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/order-detail.jsx">
+      <file leaf-file-name="ListOrderContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListOrder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderItem.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/selecter/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="162">
+              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resource.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/resource.js">
+      <file leaf-file-name="OrderDetail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/api/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/logout.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-assigned.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/order-assigned.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dashboard.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loading.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/loading.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+            <state relative-caret-position="270">
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -141,13 +189,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/login.jsx">
+      <file leaf-file-name="orderDetail.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDetailContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="53" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.default.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderItemContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,11 +247,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>打印控件未安装</find>
       <find>未发货订单</find>
-      <find>LOGIN_REQUEST</find>
       <find>adminMenu</find>
       <find>基本信息</find>
       <find>跳至</find>
@@ -169,6 +268,22 @@
       <find>暂无数据</find>
       <find>frown-o</find>
       <find>columns</find>
+      <find>LOGIN_REQUEST</find>
+      <find>LOGIN_SUCCESS</find>
+      <find>orders/orderUnassign</find>
+      <find>300</find>
+      <find>/orders/orderUnassign</find>
+      <find>font-size: 12px;</find>
+      <find>24px 50px</find>
+      <find>jsx</find>
+      <find>key</find>
+      <find>imm</find>
+      <find>getData</find>
+      <find>24</find>
+      <find>ant-layout-content</find>
+      <find>button-delete-orderItem</find>
+      <find>.orderItem</find>
+      <find>button-new-orderItem</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -184,37 +299,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/js/LodopFuncs.js" />
-        <option value="$PROJECT_DIR$/src/containers/app.jsx" />
-        <option value="$PROJECT_DIR$/src/components/login.jsx" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/order-assigned.jsx" />
-        <option value="$PROJECT_DIR$/src/components/order-print-preview.jsx" />
-        <option value="$PROJECT_DIR$/src/components/order-unassign.jsx" />
-        <option value="$PROJECT_DIR$/src/components/order-vendor-list.jsx" />
-        <option value="$PROJECT_DIR$/src/components/orderlist-msg.jsx" />
-        <option value="$PROJECT_DIR$/src/components/orderlist-new.jsx" />
-        <option value="$PROJECT_DIR$/src/components/orderlist-nomsg.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/nomatch.jsx" />
-        <option value="$PROJECT_DIR$/src/http/index.js" />
-        <option value="$PROJECT_DIR$/src/redux/sagas/index.js" />
-        <option value="$PROJECT_DIR$/src/redux/actions/actionstype.js" />
-        <option value="$PROJECT_DIR$/src/components/printer-manager.jsx" />
-        <option value="$PROJECT_DIR$/src/components/return-visit-orders.jsx" />
         <option value="$PROJECT_DIR$/src/components/sender-edit.jsx" />
         <option value="$PROJECT_DIR$/src/components/sender-item.jsx" />
         <option value="$PROJECT_DIR$/src/components/sender-new.jsx" />
         <option value="$PROJECT_DIR$/src/components/sender-setting.jsx" />
         <option value="$PROJECT_DIR$/src/components/unreturn-visit-orders.jsx" />
         <option value="$PROJECT_DIR$/src/components/user-add.jsx" />
-        <option value="$PROJECT_DIR$/src/components/userlist.jsx" />
-        <option value="$PROJECT_DIR$/src/components/order-detail.jsx" />
         <option value="$PROJECT_DIR$/src/components/orderlist-finish.jsx" />
         <option value="$PROJECT_DIR$/src/components/orderlist-back.jsx" />
-        <option value="$PROJECT_DIR$/src/components/orderlist.jsx" />
         <option value="$PROJECT_DIR$/src/components/orders-back.jsx" />
-        <option value="$PROJECT_DIR$/src/components/dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/components/loading.jsx" />
+        <option value="$PROJECT_DIR$/src/components/dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/actions/user.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/sagas/signin.jsx" />
+        <option value="$PROJECT_DIR$/src/components/login.jsx" />
+        <option value="$PROJECT_DIR$/src/components/order-assigned.jsx" />
+        <option value="$PROJECT_DIR$/src/api/resource.js" />
+        <option value="$PROJECT_DIR$/src/components/order-detail.jsx" />
+        <option value="$PROJECT_DIR$/src/components/order-print-preview.jsx" />
+        <option value="$PROJECT_DIR$/src/components/orderlist.jsx" />
+        <option value="$PROJECT_DIR$/src/components/userlist.jsx" />
+        <option value="$PROJECT_DIR$/src/components/orderlist-msg.jsx" />
+        <option value="$PROJECT_DIR$/src/components/orderlist-nomsg.jsx" />
+        <option value="$PROJECT_DIR$/scripts/start.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/index.js" />
+        <option value="$PROJECT_DIR$/src/assets/less/order-detail.less" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/Table.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/app.jsx" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/data.default.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/actions/actionstype.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/index.jsx" />
+        <option value="$PROJECT_DIR$/src/app/cntg/reducers/data.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/Table.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/constants/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/store/index.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/index.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.ts" />
+        <option value="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
+        <option value="$PROJECT_DIR$/src/containers/dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/index.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/selecter/index.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
       </list>
     </option>
   </component>
@@ -236,11 +371,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="33" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -261,6 +396,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -280,126 +418,177 @@
         <subPane>
           <expand>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="jest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
-              <item name="mockjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ListOrder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ListOrder" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderDetail" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cntg" type="462c0819:PsiDirectoryNode" />
+              <item name="selecter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
               <item name="sagas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-antd-webpack2-sagas-router4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-antd-webpack2-sagas-router4" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminVCAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminVCAT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server/server_HHC" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/cntg/components/OrderDetail" />
+      <recent name="$PROJECT_DIR$/src/app/cntg/components/ListOrder" />
+      <recent name="$PROJECT_DIR$/src/app/cntg/reducers" />
+      <recent name="$PROJECT_DIR$/src/app/cntg/actions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/cntg/actions" />
+      <recent name="$PROJECT_DIR$/src/app/base" />
+      <recent name="$PROJECT_DIR$/src/app/dvvc" />
+      <recent name="$PROJECT_DIR$/src/app/cvptg" />
       <recent name="$PROJECT_DIR$/src/assets/imgs" />
     </key>
   </component>
@@ -426,6 +615,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6f12b1cc-72cf-4d7a-9d12-c9952280d876" name="Default" comment="" />
@@ -438,24 +630,46 @@
       <workItem from="1502799281144" duration="5280000" />
       <workItem from="1502890931288" duration="3755000" />
       <workItem from="1502956153684" duration="47000" />
+      <workItem from="1502957749402" duration="245000" />
+      <workItem from="1502957998680" duration="4156000" />
+      <workItem from="1502976354631" duration="5225000" />
+      <workItem from="1503041709625" duration="655000" />
+      <workItem from="1503200159887" duration="2227000" />
+      <workItem from="1503328789193" duration="2564000" />
+      <workItem from="1503392596466" duration="74000" />
+      <workItem from="1503554771844" duration="1855000" />
+      <workItem from="1503567632357" duration="1454000" />
+      <workItem from="1503937481572" duration="483000" />
+      <workItem from="1504015759781" duration="2938000" />
+      <workItem from="1504024523756" duration="3126000" />
+      <workItem from="1504101742354" duration="1370000" />
+      <workItem from="1504105670042" duration="621000" />
+      <workItem from="1504111451633" duration="4123000" />
+      <workItem from="1504196056792" duration="1198000" />
+      <workItem from="1504768248460" duration="730000" />
+      <workItem from="1504769419189" duration="16582000" />
+      <workItem from="1504790037193" duration="15138000" />
+      <workItem from="1504864769413" duration="626000" />
+      <workItem from="1504870575266" duration="7679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19456000" />
+    <option name="totallyTimeSpent" value="92525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="33" width="1303" height="780" extended-state="7" />
+    <frame x="65" y="33" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29288027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -463,9 +677,28 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32524273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,380 +708,386 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/order-print-preview.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="262" column="19" lean-forward="true" selection-start-line="262" selection-start-column="19" selection-end-line="262" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/order-unassign.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="275" column="0" lean-forward="true" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
+        <state relative-caret-position="1638">
+          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/order-vendor-list.jsx">
+    <entry file="file://$PROJECT_DIR$/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="98" column="50" lean-forward="true" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+        <state relative-caret-position="-90">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orderlist-msg.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="348" column="130" lean-forward="false" selection-start-line="348" selection-start-column="130" selection-end-line="348" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orderlist-new.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="331" column="0" lean-forward="true" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/dashboard.jsx">
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/express.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/nomatch.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/orders.jsx">
+    <entry file="file://$PROJECT_DIR$/src/app/cvptg/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/print.jsx">
+    <entry file="file://$PROJECT_DIR$/src/app/dvvc/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/scroll-to-top.jsx">
+    <entry file="file://$PROJECT_DIR$/src/app/base/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/usermanager.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1302">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/sagas/fetchdata.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/sagas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/sagas/signin.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/sagas/signout.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/actionstype.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/user.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/user.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orderlist-nomsg.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3407">
-          <caret line="369" column="0" lean-forward="true" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/printer-manager.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/return-visit-orders.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="178" column="62" lean-forward="false" selection-start-line="178" selection-start-column="62" selection-end-line="178" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sender-edit.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="126" column="65" lean-forward="false" selection-start-line="126" selection-start-column="65" selection-end-line="126" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sender-item.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sender-new.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sender-setting.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="174" column="72" lean-forward="false" selection-start-line="174" selection-start-column="72" selection-end-line="174" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/unreturn-visit-orders.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="178" column="62" lean-forward="false" selection-start-line="178" selection-start-column="62" selection-end-line="178" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/user-add.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/userlist.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="227" column="25" lean-forward="false" selection-start-line="227" selection-start-column="25" selection-end-line="227" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orderlist-finish.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="348" column="25" lean-forward="true" selection-start-line="348" selection-start-column="25" selection-end-line="348" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orderlist-back.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="319" column="113" lean-forward="false" selection-start-line="319" selection-start-column="113" selection-end-line="319" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/table/Table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orders-back.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="330" column="28" lean-forward="true" selection-start-line="330" selection-start-column="28" selection-end-line="330" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orderlist.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="312" column="124" lean-forward="false" selection-start-line="312" selection-start-column="124" selection-end-line="312" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dashboard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/loading.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/login.jsx">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="119" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/loading.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/sagas/signout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/logout.jsx">
+    <entry file="file://$PROJECT_DIR$/src/redux/sagas/signin.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="126">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="182" column="49" lean-forward="false" selection-start-line="182" selection-start-column="35" selection-end-line="182" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/sagas/fetchdata.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/user.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/user.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/actionstype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/actions/actionstype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/actions/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/Table.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/order-assigned.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/order-detail.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/resource.js">
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/constants/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/sagas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/less/nomatch.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/less/order-detail.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/less/dashboard.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/less/dialog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/express.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/nomatch.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/orders.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/less/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/selecter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/progress/progress.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>

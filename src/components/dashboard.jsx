@@ -7,8 +7,8 @@ import store from '../redux/store/';
 import { setOpenKeys } from '../redux/actions/menu';
 
 class Dashboard extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   render() {

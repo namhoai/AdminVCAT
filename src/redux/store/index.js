@@ -2,6 +2,7 @@ import reducers from '../reducers';
 import saga from '../sagas';
 import createSagaMiddleware from 'redux-saga';
 import { createStore, applyMiddleware, compose } from 'redux';
+
 const sagaMiddleware = createSagaMiddleware();
 let store;
 if (window.__REDUX_DEVTOOLS_EXTENSION__) {

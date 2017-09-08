@@ -146,39 +146,31 @@ class App extends React.Component {
     const adminMenu=[{
       key: 'orders',
       path: '/orders/list',
-      name: 'orders',
+      name: 'Service',
       icon: 'printer',
       children: [{
         key: 'orderUnassign',
         path: '/orders/orderUnassign',
-        name: 'order Unassign'
+        name: 'Moving House'
       }, {
         key: 'orderAssigned',
         path: '/orders/orderAssigned',
-        name: 'order Assigned'
+        name: 'Moving Office'
       },{
         key: 'UnreturnVisitOrders',
         path: '/orders/UnreturnVisitOrders',
-        name: 'Unreturn VisitOrders'
-      }, {
-        key: 'ReturnVisitOrders',
-        path: '/orders/ReturnVisitOrders',
-        name: 'Return Visit Orders'
-      }, {
-        key: 'OrdersBack',
-        path: '/orders/OrdersBack',
-        name: 'Orders Back'
+        name: 'Transfer Service'
       }]
     }, {
       key: 'userList',
       path: '/user/userList',
-      name: 'User List',
+      name: 'Members List',
       level: 0,
       icon: 'user'
     }, {
       key: 'orderListBack',
       path: '/express/orderListBack',
-      name: 'Order ListBack',
+      name: 'Customer List',
       icon: 'phone'
     }];
     return (<div style={{ height: '100vh' }}>
@@ -216,10 +208,6 @@ class App extends React.Component {
           <Content style={{ padding: '24px', overflow: 'initial' }}>
             <div style={{ background: '#fff', minHeight: 'calc(100vh - 190px)', color: 'green', padding: '24px' }}>
               {this.props.children}
-              {/*<div style={{ fontSize: 30, padding: '100 0', textAlign: 'center' }}>
-                <h3>数据：{this.props.customData ? this.props.customData.data.payload.orderstate : '无数据' }</h3>
-                <Button onClick={this.send.bind(this)}>saga异步获取数据</Button>
-              </div>*/}
             </div>
             <div style={{ padding: '0 20' }}>
               <Modal

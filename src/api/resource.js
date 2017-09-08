@@ -31,6 +31,7 @@ const apiWX = {
 };
 
 const LoginResource = API_ROOT.concat(apiWX.Login);
+// const LoginResource = 'http://vanchuyenantam.xyz/1011961997/login';
 const LogoutResource = API_ROOT.concat(apiWX.Logout);
 const OrderStateResource = API_ROOT.concat(apiWX.OrderState);
 const OrderListNewResource = API_ROOT.concat(apiWX.OrderListNew);
