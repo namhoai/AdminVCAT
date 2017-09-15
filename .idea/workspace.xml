@@ -2,124 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f12b1cc-72cf-4d7a-9d12-c9952280d876" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/base/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/actions/actionstype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/actions/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/components/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/constants/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/reducers/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cntg/selecter/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/cvptg/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/dvvc/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/avar.gif" afterPath="$PROJECT_DIR$/src/assets/imgs/avar.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/demo.gif" afterPath="$PROJECT_DIR$/src/assets/imgs/demo.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/logo.png" afterPath="$PROJECT_DIR$/src/assets/imgs/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/react-antd-webpack2-sagas-router4.iml" afterPath="$PROJECT_DIR$/.idea/react-antd-webpack2-sagas-router4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/env.js" afterPath="$PROJECT_DIR$/config/env.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/paths.js" afterPath="$PROJECT_DIR$/config/paths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/polyfills.js" afterPath="$PROJECT_DIR$/config/polyfills.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockjs/index.js" afterPath="$PROJECT_DIR$/mockjs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/LodopFuncs.js" afterPath="$PROJECT_DIR$/public/js/LodopFuncs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/printbase.js" afterPath="$PROJECT_DIR$/public/js/printbase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/build.js" afterPath="$PROJECT_DIR$/scripts/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/start.js" afterPath="$PROJECT_DIR$/scripts/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test.js" afterPath="$PROJECT_DIR$/scripts/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/config.js" afterPath="$PROJECT_DIR$/src/api/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/index.js" afterPath="$PROJECT_DIR$/src/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/resource.js" afterPath="$PROJECT_DIR$/src/api/resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/express.svg" afterPath="$PROJECT_DIR$/src/assets/imgs/express.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/logo.svg" afterPath="$PROJECT_DIR$/src/assets/imgs/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/imgs/orders.svg" afterPath="$PROJECT_DIR$/src/assets/imgs/orders.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/app.less" afterPath="$PROJECT_DIR$/src/assets/less/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/dashboard.less" afterPath="$PROJECT_DIR$/src/assets/less/dashboard.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/dialog.less" afterPath="$PROJECT_DIR$/src/assets/less/dialog.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/nomatch.less" afterPath="$PROJECT_DIR$/src/assets/less/nomatch.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/order-detail.less" afterPath="$PROJECT_DIR$/src/assets/less/order-detail.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/order-print-preview.less" afterPath="$PROJECT_DIR$/src/assets/less/order-print-preview.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/sender-item.less" afterPath="$PROJECT_DIR$/src/assets/less/sender-item.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/less/sender-new.less" afterPath="$PROJECT_DIR$/src/assets/less/sender-new.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/DropOption/index.js" afterPath="$PROJECT_DIR$/src/components/DropOption/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/dashboard.jsx" afterPath="$PROJECT_DIR$/src/components/dashboard.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/loading.jsx" afterPath="$PROJECT_DIR$/src/components/loading.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/login.jsx" afterPath="$PROJECT_DIR$/src/components/login.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/logout.jsx" afterPath="$PROJECT_DIR$/src/components/logout.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-assigned.jsx" afterPath="$PROJECT_DIR$/src/components/order-assigned.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-detail.jsx" afterPath="$PROJECT_DIR$/src/components/order-detail.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-print-preview.jsx" afterPath="$PROJECT_DIR$/src/components/order-print-preview.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-unassign.jsx" afterPath="$PROJECT_DIR$/src/components/order-unassign.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order-vendor-list.jsx" afterPath="$PROJECT_DIR$/src/components/order-vendor-list.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orderlist-back.jsx" afterPath="$PROJECT_DIR$/src/components/orderlist-back.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orderlist-finish.jsx" afterPath="$PROJECT_DIR$/src/components/orderlist-finish.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orderlist-msg.jsx" afterPath="$PROJECT_DIR$/src/components/orderlist-msg.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orderlist-new.jsx" afterPath="$PROJECT_DIR$/src/components/orderlist-new.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orderlist-nomsg.jsx" afterPath="$PROJECT_DIR$/src/components/orderlist-nomsg.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orderlist.jsx" afterPath="$PROJECT_DIR$/src/components/orderlist.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/orders-back.jsx" afterPath="$PROJECT_DIR$/src/components/orders-back.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/printer-manager.jsx" afterPath="$PROJECT_DIR$/src/components/printer-manager.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/return-visit-orders.jsx" afterPath="$PROJECT_DIR$/src/components/return-visit-orders.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sender-edit.jsx" afterPath="$PROJECT_DIR$/src/components/sender-edit.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sender-item.jsx" afterPath="$PROJECT_DIR$/src/components/sender-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sender-new.jsx" afterPath="$PROJECT_DIR$/src/components/sender-new.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sender-setting.jsx" afterPath="$PROJECT_DIR$/src/components/sender-setting.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/unreturn-visit-orders.jsx" afterPath="$PROJECT_DIR$/src/components/unreturn-visit-orders.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/user-add.jsx" afterPath="$PROJECT_DIR$/src/components/user-add.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/userlist.jsx" afterPath="$PROJECT_DIR$/src/components/userlist.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/app.jsx" afterPath="$PROJECT_DIR$/src/containers/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/dashboard.jsx" afterPath="$PROJECT_DIR$/src/containers/dashboard.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/express.jsx" afterPath="$PROJECT_DIR$/src/containers/express.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/nomatch.jsx" afterPath="$PROJECT_DIR$/src/containers/nomatch.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/orders.jsx" afterPath="$PROJECT_DIR$/src/containers/orders.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/print.jsx" afterPath="$PROJECT_DIR$/src/containers/print.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/scroll-to-top.jsx" afterPath="$PROJECT_DIR$/src/containers/scroll-to-top.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/usermanager.jsx" afterPath="$PROJECT_DIR$/src/containers/usermanager.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/http/index.js" afterPath="$PROJECT_DIR$/src/http/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/actionstype.js" afterPath="$PROJECT_DIR$/src/redux/actions/actionstype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/menu.jsx" afterPath="$PROJECT_DIR$/src/redux/actions/menu.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions/user.jsx" afterPath="$PROJECT_DIR$/src/redux/actions/user.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/index.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/menu.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/menu.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers/user.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/user.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/fetchdata.jsx" afterPath="$PROJECT_DIR$/src/redux/sagas/fetchdata.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/index.js" afterPath="$PROJECT_DIR$/src/redux/sagas/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/signin.jsx" afterPath="$PROJECT_DIR$/src/redux/sagas/signin.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/sagas/signout.jsx" afterPath="$PROJECT_DIR$/src/redux/sagas/signout.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/store/index.js" afterPath="$PROJECT_DIR$/src/redux/store/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/city.js" afterPath="$PROJECT_DIR$/src/utils/city.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/index.js" afterPath="$PROJECT_DIR$/src/utils/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/init.js" afterPath="$PROJECT_DIR$/src/utils/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/menu.jsx" afterPath="$PROJECT_DIR$/src/utils/menu.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/print.js" afterPath="$PROJECT_DIR$/src/utils/print.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" afterPath="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -133,55 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListOrderContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListOrder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderItem.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/selecter/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrderDetail.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="169">
+              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -189,58 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderDetail.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="orderDetail.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderDetailContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.default.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderItemContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -284,6 +83,9 @@
       <find>button-delete-orderItem</find>
       <find>.orderItem</find>
       <find>button-new-orderItem</find>
+      <find>orderItem</find>
+      <find>del</find>
+      <find>note</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -338,18 +140,18 @@
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/index.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.ts" />
-        <option value="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
         <option value="$PROJECT_DIR$/src/containers/dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/assets/less/app.less" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/index.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/selecter/index.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js" />
-        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
-        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
-        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
       </list>
     </option>
   </component>
@@ -372,10 +174,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="33" />
-    <option name="width" value="1301" />
-    <option name="height" value="716" />
+    <option name="x" value="75" />
+    <option name="y" value="6" />
+    <option name="width" value="1215" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -569,7 +371,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server/server_HHC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/SNWClient.26" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -651,17 +453,18 @@
       <workItem from="1504790037193" duration="15138000" />
       <workItem from="1504864769413" duration="626000" />
       <workItem from="1504870575266" duration="7679000" />
+      <workItem from="1505014962343" duration="14227000" />
+      <workItem from="1505232377063" duration="3006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92525000" />
+    <option name="totallyTimeSpent" value="109758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="33" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -676,6 +479,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32524273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -978,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,27 +789,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/selecter/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrderContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="0">
           <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,35 +803,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItemContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1050,44 +817,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/selecter/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="89" column="29" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="83" column="39" lean-forward="true" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="34" column="96" lean-forward="false" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="169">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>

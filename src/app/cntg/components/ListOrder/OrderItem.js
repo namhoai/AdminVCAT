@@ -88,7 +88,6 @@ class OrderItem extends React.Component {
                         size='small'
                     />
                 </Popconfirm>
-
             </div>
         );
     }

@@ -16,7 +16,7 @@ export const response = {
                 "toMove": "Số 76 Quất Duy Tiến Hà Nội.",
                 "dateMove": "2017-07-26T17:00:00.000Z",
                 "cost": 1500000,
-                "note": "3 Tủ \r\n2 Thùng Quần áo \r\n2 giường"
+                "note": "3 Tủ \r\n2 Thùng Quần áo \r\n2 giường chuyển đến trước 8h sáng để nhà chị còn đặt hàng cho khách"
             },
             "time": "2017-08-25T08:01:11.000Z",
             "tick": 1

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import OrderItemContainer from './OrderItemContainer';
-import { Button, Icon, Progress } from 'antd';
+import { Button, Icon, Progress, Menu } from 'antd';
 
 class ListOrder extends React.Component {
 
@@ -10,21 +10,34 @@ class ListOrder extends React.Component {
         super(props);
     }
 
+    state = {
+        collapsed: false,
+    };
+
+    toggleCollapsed = () => {
+        this.setState({
+            collapsed: !this.state.collapsed,
+        });
+    };
+
     render() {
         debugger;
         const { listItems, callBack } = this.props;
         return (
             <div>
                 <div className="title-order">Danh sách đơn hàng</div>
-
-                {
-                    (listItems !== undefined) &&
-                    listItems.map((orderId) => {
-                        return (
-                            <OrderItemContainer orderId={orderId} callBack={callBack} />
-                        )
-                    })
-                }
+                <Menu>
+                    {
+                        (listItems !== undefined) &&
+                        listItems.map((orderId, index) => {
+                            return (
+                                <Menu.Item style={{height: 75}} key={index + ''}>
+                                    <OrderItemContainer orderId={orderId} callBack={callBack} />
+                                </Menu.Item>
+                            )
+                        })
+                    }
+                </Menu>
                 <Button className="margin-top" type="danger" ghost shape="circle" icon="plus" size='large' />
                 <div className="control-order margin-top">
                     <Button.Group size='default'>
