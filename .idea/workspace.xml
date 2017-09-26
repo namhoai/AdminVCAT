@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6f12b1cc-72cf-4d7a-9d12-c9952280d876" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" afterPath="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" afterPath="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" afterPath="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrderDetail.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrderDetail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+            <state relative-caret-position="144">
+              <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -34,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderDetail.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
+      <file leaf-file-name="data.default.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="329">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderItem.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -56,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>打印控件未安装</find>
       <find>未发货订单</find>
       <find>adminMenu</find>
       <find>基本信息</find>
@@ -86,6 +92,7 @@
       <find>orderItem</find>
       <find>del</find>
       <find>note</find>
+      <find>edit-cost</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -147,11 +154,11 @@
         <option value="$PROJECT_DIR$/src/app/cntg/selecter/index.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetailContainer.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/OrderItem.js" />
-        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js" />
-        <option value="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
-        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
         <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less" />
+        <option value="$PROJECT_DIR$/src/app/cntg/reducers/data.default.js" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less" />
+        <option value="$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js" />
       </list>
     </option>
   </component>
@@ -216,6 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,8 +373,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,15 +462,18 @@
       <workItem from="1504870575266" duration="7679000" />
       <workItem from="1505014962343" duration="14227000" />
       <workItem from="1505232377063" duration="3006000" />
+      <workItem from="1505494047902" duration="602000" />
+      <workItem from="1505696209035" duration="2202000" />
+      <workItem from="1506440116102" duration="1871000" />
+      <workItem from="1506442395613" duration="4164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109758000" />
+    <option name="totallyTimeSpent" value="118597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="75" y="6" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -472,7 +482,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29288027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -512,7 +522,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -834,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="83" column="39" lean-forward="true" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/ListOrder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -848,29 +851,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/ListOrder/styles/orderItem.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/cntg/reducers/data.default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="329">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/OrderDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        <state relative-caret-position="144">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cntg/components/OrderDetail/styles/orderDetail.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
