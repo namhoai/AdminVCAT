@@ -5,8 +5,14 @@ import { fork, all } from 'redux-saga/effects';
 import { signin } from './signin';
 import { signout } from './signout';
 import { fetchData } from './fetchdata';
+import { baseMoveHouseSaga } from '../../app/cntg/saga/moveHouse';
 
 // Single entry point, start all at once Saga
 export default function* rootSaga() {
-  yield all([fork(signin), fork(signout), fork(fetchData)]);
+  yield all([
+      fork(signin),
+      fork(signout),
+      fork(fetchData),
+      fork(baseMoveHouseSaga),
+  ]);
 }

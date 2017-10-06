@@ -20,6 +20,15 @@ class ListOrder extends React.Component {
         });
     };
 
+    componentWillMount() {
+        const data = {
+            page : 0,
+            pageSize: 5
+        };
+        debugger;
+        this.props.getListCNTG(data);
+    }
+
     render() {
         debugger;
         const { listItems, callBack } = this.props;
@@ -64,6 +73,7 @@ class ListOrder extends React.Component {
 
 ListOrder.propTypes = {
     listItems: PropTypes.object,
+    getListCNTG: PropTypes.func,
 };
 
 export default ListOrder;
