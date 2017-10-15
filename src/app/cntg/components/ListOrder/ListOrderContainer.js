@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 
 import {moveHouseUi} from '../../actions/moveHouse';
-import {getListOrderId} from '../../selecter'
+import {getListOrderId} from '../../selector'
 import ListOrder from './ListOrder';
 
 function mapStateToProp(state, ownProps) {

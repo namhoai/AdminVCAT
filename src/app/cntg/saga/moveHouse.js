@@ -1,6 +1,6 @@
 
 import {take, call, fork, put, all} from 'redux-saga/effects';
-import {MOVE_HOUSE, MOVE_HOUSE_API, MOVE_HOUSE_UI, moveHouse as moveHouseReducer, moveHouseApi} from '../actions/moveHouse';
+import {MOVE_HOUSE_API, MOVE_HOUSE_UI, moveHouse as moveHouseReducer, moveHouseApi} from '../actions/moveHouse';
 import * as functionApi from '../apis/moveHouse';
 import { SagaUtils } from '../../../share';
 

@@ -15,8 +15,8 @@ export const MOVE_HOUSE_API = {
 };
 
 export const MOVE_HOUSE = {
-    ADD_LIST: 'CATEGORY_GROUP_ADD_LIST',
-    ADD: 'CATEGORY_GROUP_ADD',
+    ADD_LIST: 'MOVE_HOUSE_ADD_LIST',
+    ADD: 'MOVE_HOUSE_ADD',
 };
 
 export const moveHouseUi = {

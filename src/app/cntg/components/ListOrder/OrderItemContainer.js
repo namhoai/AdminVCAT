@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { getOrderById } from '../../selecter'
+import { getOrderById } from '../../selector'
 import OrderItem from './OrderItem';
 
 function mapStateToProp(state, ownProps) {
