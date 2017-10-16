@@ -15,12 +15,14 @@ const hearBirthday = (<div style={{width: 80}}>Năm Sinh</div>);
 const hearTotalApply = (<div style={{width: 80}}>Lần Tham Gia</div>);
 
 function getBase64(img, callback) {
+    debugger;
     const reader = new FileReader();
     reader.addEventListener('load', () => callback(reader.result));
     reader.readAsDataURL(img);
 }
 
 function beforeUpload(file) {
+    debugger;
     const isJPG = file.type === 'image/jpeg';
     if (!isJPG) {
         message.error('You can only upload JPG file!');
@@ -75,6 +77,7 @@ class EditMember extends React.Component {
     };
 
     handleChange = (info) => {
+        debugger;
         if (info.file.status === 'done') {
             // Get this url from response in real world.
             getBase64(info.file.originFileObj, imageUrl => this.setState({ imageUrl }));

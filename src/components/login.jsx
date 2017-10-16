@@ -25,13 +25,18 @@ class Login extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         this.props.form.validateFields((err, values) => {
+            const dataUserName = {
+                username: this.state.username,
+                password: this.state.password
+            };
+            const dataEmail = {
+                email: this.state.username,
+                password: this.state.password
+            };
+            const data = (this.state.username.includes('@gmail.com')) ? dataEmail : dataUserName;
             if (!err) {
                 debugger;
-                this.props.login({
-                    username: this.state.username,
-                    // password: cryptPwd(this.state.password)
-                    password: this.state.password
-                });
+                this.props.login(data);
             }
         });
     }

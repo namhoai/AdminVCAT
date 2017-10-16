@@ -5,6 +5,7 @@ export const loginRequest = (data) => {
   return { type: LOGIN_REQUEST, payload: data };
 };
 export const loginSuccess = (token, isAdmin, userName) => {
+  debugger;
   localStorage.setItem('token', token);
   localStorage.setItem('isAdmin', isAdmin);
   localStorage.setItem('userName', userName);

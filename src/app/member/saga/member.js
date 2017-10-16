@@ -94,6 +94,35 @@ function* watchUpdateMemberAfterFetch() {
     }
 }
 
+/** *** DELETE A MEMBER ***/
+const fetchDelete = fetchEntity.bind(null, memberApi.deleteMember, functionApi.deleteMember);
+
+function* doDeleteMember(payload) {
+    debugger;
+    yield call(fetchDelete, payload);
+}
+
+function* watchDeleteMember() {
+    while(true) {
+        const actionInfo = yield take(MEMBER_UI.REMOVE);
+        debugger;
+        yield fork(doDeleteMember, actionInfo.payload);
+    }
+}
+
+function* watchDeleteMemberAfterFetch() {
+    while(true) {
+        const fetchResult = yield take([MEMBER_API.DELETE.FAILURE, MEMBER_API.DELETE.SUCCESS]);
+        // Neu fetch thanh cong va so luong ban ghi lay duoc > 0 thi dispatch action de cap nhat state
+        if (fetchResult.type === MEMBER_API.DELETE.SUCCESS) {
+            debugger;
+            yield put(memberReducer.deleteMember(fetchResult.payload));
+        }
+        if (fetchResult.type === MEMBER_API.DELETE.FAILURE) { /* sonething */
+        }
+    }
+}
+
 /** *** EXPORT ***/
 export function* baseMemberSaga() {
     yield all([
@@ -103,5 +132,7 @@ export function* baseMemberSaga() {
         call(watchPostMemberAfterFetch),
         call(watchUpdateMember),
         call(watchUpdateMemberAfterFetch),
+        call(watchDeleteMember),
+        call(watchDeleteMemberAfterFetch),
     ]);
 }

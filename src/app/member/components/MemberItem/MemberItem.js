@@ -10,7 +10,11 @@ import './styles/index.less';
 
 function confirm(e) {
     console.log(e);
-    message.success('Click on Yes');
+    debugger;
+    const {member, deleteMember} = this.props;
+    const memberId = member.getIn(['data', 'id']);
+    deleteMember({memberId, member});
+    message.success('Xóa Thành Công !');
 }
 
 function cancel(e) {
@@ -51,7 +55,7 @@ class MemberItem extends React.Component {
     render() {
         // NamVH
         debugger;
-        const {member, memberId} = this.props;
+        const {member, memberId, deleteMember} = this.props;
         const name = member.getIn(['data', 'name']);
         const phone = member.getIn(['data', 'phone']);
         const address = member.getIn(['data', 'address']);
@@ -81,7 +85,15 @@ class MemberItem extends React.Component {
                     <div className="member-item-toolbar">
                         <ul>
                             <li>
-                                <Popconfirm title="Are you sure delete this task?" onConfirm={confirm} onCancel={cancel} okText="Yes" cancelText="No">
+                                <Popconfirm
+                                    title="Are you sure delete this member?"
+                                    member={member}
+                                    onConfirm={confirm}
+                                    onCancel={cancel}
+                                    okText="Yes"
+                                    cancelText="No"
+                                    deleteMember={deleteMember}
+                                >
                                     <Button shape="circle" type="danger" icon="close" />
                                 </Popconfirm>
                             </li>
@@ -115,6 +127,7 @@ class MemberItem extends React.Component {
 MemberItem.propTypes = {
     member: PropTypes.object,
     memberId: PropTypes.string,
+    deleteMember: PropTypes.func,
 };
 
 export default MemberItem;

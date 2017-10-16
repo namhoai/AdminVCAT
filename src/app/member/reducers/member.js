@@ -25,10 +25,20 @@ const update = (state, action) => {
     return state.setIn(['members', memberId + ''], member);
 };
 
+const deleteMember = (state, action) => {
+    const {memberId} = action.payload;
+    debugger;
+    return state.withMutations (st => {
+        st.deleteIn(['members', memberId + '']);
+        st.updateIn(['memberIds'], member => member.delete(member.indexOf(memberId)));
+    })
+};
+
 const member = ReducerUtils.createReducer(fromJS({}), {
     [MEMBER.ADD_LIST]: addList,
     [MEMBER.ADD]: add,
     [MEMBER.UPDATE]: update,
+    [MEMBER.DELETE]: deleteMember,
 });
 
 export default member;

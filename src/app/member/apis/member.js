@@ -67,3 +67,13 @@ export const update = (payload) => {
     return callApi(url, options);
 };
 
+export const deleteMember = (payload) => {
+    debugger;
+    const {member} = payload;
+    const url = member.get('href');
+    const options = {
+        method: 'DELETE',
+        mode: 'cors',
+    };
+    return callApi(url, options);
+};
