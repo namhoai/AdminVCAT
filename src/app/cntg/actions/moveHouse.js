@@ -1,8 +1,9 @@
 
 
-import {ActionUtils} from '../../../share';
-import {APP_ID} from '../constants';
-const {createAction, createActionNoAppID, createFetchTypes} = ActionUtils;
+import {APP_ID} from '../contants';
+import createAction from '../../../share/utils/ActionUtils/createAction';
+import createActionNoAppID from '../../../share/utils/ActionUtils/createActionNoAppID';
+import createFetchTypes from '../../../share/utils/ActionUtils/createFetchTypes';
 
 export const MOVE_HOUSE_UI = {
     GET_LIST: 'MOVE_HOUSE_GET_LIST_UI',

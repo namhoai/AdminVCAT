@@ -1,7 +1,7 @@
 /**
  * Created by namvh on 15/10/2017
  */
-import {APP_ID} from '../constants'
+import {APP_ID} from '../constants';
 
 export const getListMemberId = (state) => {
     debugger;

@@ -2,9 +2,7 @@
 import {take, call, fork, put, all} from 'redux-saga/effects';
 import {MOVE_HOUSE_API, MOVE_HOUSE_UI, moveHouse as moveHouseReducer, moveHouseApi} from '../actions/moveHouse';
 import * as functionApi from '../apis/moveHouse';
-import { SagaUtils } from '../../../share';
-
-const {fetchEntity} = SagaUtils;
+import fetchEntity from '../../../share/utils/SagaUtils/fetchEntity';
 
 /** *** GET LIST DATA ***/
 const fetchGetList = fetchEntity.bind(null, moveHouseApi.getList, functionApi.getList);

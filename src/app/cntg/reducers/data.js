@@ -1,5 +1,5 @@
 import {fromJS} from 'immutable';
-import {ReducerUtils} from '../../../share';
+import createReducer from '../../../share/utils/ReducerUtils/createReducer';
 import {MOVE_HOUSE} from '../actions/moveHouse';
 
 const addList = (state, action) => {
@@ -8,7 +8,7 @@ const addList = (state, action) => {
     return state.merge(fromJS(response));
 };
 
-const cntg = ReducerUtils.createReducer(fromJS({}), {
+const cntg = createReducer(fromJS({}), {
     [MOVE_HOUSE.ADD_LIST]: addList,
 });
 

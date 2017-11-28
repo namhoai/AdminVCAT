@@ -5,23 +5,23 @@
 import {take, call, fork, put, all} from 'redux-saga/effects';
 import {MEMBER_API, MEMBER_UI, member as memberReducer, memberApi} from '../actions/member';
 import * as functionApi from '../apis/member';
-import { SagaUtils } from '../../../share';
-
-const {fetchEntity} = SagaUtils;
+import fetchEntity from '../../../share/utils/SagaUtils/fetchEntity';
 
 /** *** GET LIST DATA ***/
 const fetchGetList = fetchEntity.bind(null, memberApi.getList, functionApi.getList);
 
-function* doGetListMember(payload) {
+function* doGetListMember(actionInfo) {
     debugger;
-    yield call(fetchGetList, payload);
+    const original = actionInfo.payload;
+    const {data} = original;
+    yield call(fetchGetList, original, data);
 }
 
 function* watchGetListMember() {
     while(true) {
         const actionInfo = yield take(MEMBER_UI.GET_LIST);
         debugger;
-        yield fork(doGetListMember, actionInfo.payload);
+        yield fork(doGetListMember, actionInfo);
     }
 }
 
@@ -30,6 +30,7 @@ function* watchGetMemberAfterFetch() {
         const fetchResult = yield take([MEMBER_API.GET_LIST.FAILURE, MEMBER_API.GET_LIST.SUCCESS]);
         // Neu fetch thanh cong va so luong ban ghi lay duoc > 0 thi dispatch action de cap nhat state
         if (fetchResult.type === MEMBER_API.GET_LIST.SUCCESS) {
+            debugger;
             yield put(memberReducer.addList(fetchResult.payload));
         }
         if (fetchResult.type === MEMBER_API.GET_LIST.FAILURE) { /* sonething */
@@ -112,13 +113,13 @@ function* watchDeleteMember() {
 
 function* watchDeleteMemberAfterFetch() {
     while(true) {
-        const fetchResult = yield take([MEMBER_API.DELETE.FAILURE, MEMBER_API.DELETE.SUCCESS]);
+        const fetchResult = yield take([MEMBER_API.DELETE_MENBER.FAILURE, MEMBER_API.DELETE_MENBER.SUCCESS]);
         // Neu fetch thanh cong va so luong ban ghi lay duoc > 0 thi dispatch action de cap nhat state
-        if (fetchResult.type === MEMBER_API.DELETE.SUCCESS) {
+        if (fetchResult.type === MEMBER_API.DELETE_MENBER.SUCCESS) {
             debugger;
             yield put(memberReducer.deleteMember(fetchResult.payload));
         }
-        if (fetchResult.type === MEMBER_API.DELETE.FAILURE) { /* sonething */
+        if (fetchResult.type === MEMBER_API.DELETE_MENBER.FAILURE) { /* sonething */
         }
     }
 }

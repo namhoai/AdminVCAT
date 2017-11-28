@@ -2,7 +2,7 @@
  * Created by namvh on 15/10/2017
  */
 import {fromJS} from 'immutable';
-import {ReducerUtils} from '../../../share';
+import createReducer from '../../../share/utils/ReducerUtils/createReducer';
 import {MEMBER} from '../actions/member';
 
 const add = (state, action) => {
@@ -15,7 +15,8 @@ const add = (state, action) => {
 };
 
 const addList = (state, action) => {
-    const {response} = action.payload;
+    debugger;
+    const response = action.payload;
     return state.merge(fromJS(response));
 };
 
@@ -34,7 +35,7 @@ const deleteMember = (state, action) => {
     })
 };
 
-const member = ReducerUtils.createReducer(fromJS({}), {
+const member = createReducer(fromJS({}), {
     [MEMBER.ADD_LIST]: addList,
     [MEMBER.ADD]: add,
     [MEMBER.UPDATE]: update,

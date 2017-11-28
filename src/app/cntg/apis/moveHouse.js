@@ -1,12 +1,10 @@
 
-import {SagaUtils} from '../../../share';
+import callApi from '../../../share/utils/SagaUtils/callApi';
 import * as fakeData from './data.fake';
-const {callApi} = SagaUtils;
 
 export const getList = (payload) => {
     const options = {
-        method: 'GET',
-        mode: 'cors',
+        method: 'GET'
     };
     // const url = 'http://vanchuyenantam.xyz/api/cntg/data';
     // return callApi(url, options);

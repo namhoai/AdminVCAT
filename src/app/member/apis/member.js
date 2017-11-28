@@ -2,20 +2,17 @@
  * Created by namvh on 15/10/2017
  */
 
-import {SagaUtils} from '../../../share';
-import * as fakeData from './data.fake';
-const {callApi} = SagaUtils;
+import callApi from '../../../share/utils/SagaUtils/callApi';
+import {URL_CONTAINER} from '../constants';
+// import * as fakeData from './data.fake';
 
 export const getList = (payload) => {
     const options = {
-        method: 'GET',
-        mode: 'cors',
+        method: 'GET'
     };
-    const url = 'http://vanchuyenantam.xyz/api/member';
+    const url = URL_CONTAINER + '/api/member';
+    debugger;
     return callApi(url, options);
-    // return {
-    //     response: fakeData.member
-    // }
 };
 
 export const post = (payload) => {
@@ -61,7 +58,6 @@ export const update = (payload) => {
         headers: new Headers({
             'Content-Type': 'application/json'
         }),
-        mode: 'cors',
         body: JSON.stringify(memberPut)
     };
     return callApi(url, options);
@@ -72,8 +68,7 @@ export const deleteMember = (payload) => {
     const {member} = payload;
     const url = member.get('href');
     const options = {
-        method: 'DELETE',
-        mode: 'cors',
+        method: 'DELETE'
     };
     return callApi(url, options);
 };

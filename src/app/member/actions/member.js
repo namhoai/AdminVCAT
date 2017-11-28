@@ -1,9 +1,11 @@
 /**
  * Created by namvh on 15/10/2017
  */
-import {ActionUtils} from '../../../share';
 import {APP_ID} from '../constants';
-const {createAction, createActionNoAppID, createFetchTypes} = ActionUtils;
+
+import createAction from '../../../share/utils/ActionUtils/createAction';
+import createActionNoAppID from '../../../share/utils/ActionUtils/createActionNoAppID';
+import createFetchTypes from '../../../share/utils/ActionUtils/createFetchTypes';
 
 export const MEMBER_UI = {
     GET_LIST: 'MEMBER_GET_LIST_UI',
@@ -18,49 +20,55 @@ export const MEMBER_API = {
     GET: createFetchTypes('MEMBER_GET_API'),
     POST: createFetchTypes('MEMBER_POST_API'),
     UPDATE: createFetchTypes('MEMBER_UPDATE_API'),
-    DELETE: createFetchTypes('MEMBER_DELETE_API'),
+    DELETE_MENBER: createFetchTypes('MEMBER_DELETE_API'),
 };
 
 export const MEMBER = {
     ADD_LIST: 'MEMBER_ADD_LIST',
     ADD: 'MEMBER_ADD',
     UPDATE: 'MEMBER_UPDATE',
-    DELETE: 'MEMBER_DELETE'
+    DELETE_MENBER: 'MEMBER_DELETE'
 };
 
 export const memberUi = {
-    getList: (payload) => createAction(APP_ID, MEMBER_UI.GET_LIST, payload),
+    getList: (data) => {
+        debugger;
+        return createAction(APP_ID, MEMBER_UI.GET_LIST, {data});
+    },
     get: (payload) => createAction(APP_ID, MEMBER_UI.GET, payload),
     post: (payload) => createAction(APP_ID, MEMBER_UI.POST, payload),
     update: (payload) => createAction(APP_ID, MEMBER_UI.UPDATE, payload),
-    delete: (payload) => createAction(APP_ID, MEMBER_UI.REMOVE, payload)
+    deleteMember: (payload) => createAction(APP_ID, MEMBER_UI.REMOVE, payload)
 };
 
 export const memberApi = {
     getList: {
-        request: (payload) => createActionNoAppID(MEMBER_API.GET_LIST.REQUEST, {...payload}),
-        success: (payload, response) => createActionNoAppID(MEMBER_API.GET_LIST.SUCCESS, {...payload, response}),
-        failure: (payload, error) => createActionNoAppID(MEMBER_API.GET_LIST.FAILURE, {...payload, error}),
+        request: (original) => createActionNoAppID(MEMBER_API.GET_LIST.REQUEST, original),
+        success: (original, response) => {
+            debugger;
+            return createActionNoAppID(MEMBER_API.GET_LIST.SUCCESS, response, original);
+        },
+        failure: (original, error) => createActionNoAppID(MEMBER_API.GET_LIST.FAILURE, error, original),
     },
     get: {
-        request: (payload) => createActionNoAppID(MEMBER_API.GET.REQUEST, {...payload}),
-        success: (payload, response) => createActionNoAppID(MEMBER_API.GET.SUCCESS, {...payload, response}),
-        failure: (payload, error) => createActionNoAppID(MEMBER_API.GET.FAILURE, {...payload, error}),
+        request: (original) => createActionNoAppID(MEMBER_API.GET.REQUEST, original),
+        success: (original, response) => createActionNoAppID(MEMBER_API.GET.SUCCESS, response, original),
+        failure: (original, error) => createActionNoAppID(MEMBER_API.GET.FAILURE, error, original),
     },
     update: {
-        request: (payload) => createActionNoAppID(MEMBER_API.UPDATE.REQUEST, {...payload}),
-        success: (payload, response) => createActionNoAppID(MEMBER_API.UPDATE.SUCCESS, {...payload, response}),
-        failure: (payload, error) => createActionNoAppID(MEMBER_API.UPDATE.FAILURE, {...payload, error}),
+        request: (original) => createActionNoAppID(MEMBER_API.UPDATE.REQUEST, original),
+        success: (original, response) => createActionNoAppID(MEMBER_API.UPDATE.SUCCESS, response, original),
+        failure: (original, error) => createActionNoAppID(MEMBER_API.UPDATE.FAILURE, error, original),
     },
     post: {
-        request: (payload) => createActionNoAppID(MEMBER_API.POST.REQUEST, {...payload}),
-        success: (payload, response) => createActionNoAppID(MEMBER_API.POST.SUCCESS, {...payload, response}),
-        failure: (payload, error) => createActionNoAppID(MEMBER_API.POST.FAILURE, {...payload, error}),
+        request: (original) => createActionNoAppID(MEMBER_API.POST.REQUEST, original),
+        success: (original, response) => createActionNoAppID(MEMBER_API.POST.SUCCESS, response, original),
+        failure: (original, error) => createActionNoAppID(MEMBER_API.POST.FAILURE, error, original),
     },
     deleteMember: {
-        request: (payload) => createActionNoAppID(MEMBER_API.DELETE.REQUEST, {...payload}),
-        success: (payload, response) => createActionNoAppID(MEMBER_API.DELETE.SUCCESS, {...payload, response}),
-        failure: (payload, error) => createActionNoAppID(MEMBER_API.DELETE.FAILURE, {...payload, error}),
+        request: (original) => createActionNoAppID(MEMBER_API.DELETE_MENBER.REQUEST, original),
+        success: (original, response) => createActionNoAppID(MEMBER_API.DELETE_MENBER.SUCCESS, response, original),
+        failure: (original, error) => createActionNoAppID(MEMBER_API.DELETE_MENBER.FAILURE, error, original),
     }
 };
 
@@ -68,5 +76,5 @@ export const member = {
     addList: (payload) => createActionNoAppID(MEMBER.ADD_LIST, payload),
     add: (payload) => createActionNoAppID(MEMBER.ADD, payload),
     update: (payload) => createActionNoAppID(MEMBER.UPDATE, payload),
-    deleteMember: (payload) => createActionNoAppID(MEMBER.DELETE, payload),
+    deleteMember: (payload) => createActionNoAppID(MEMBER.DELETE_MENBER, payload),
 };
