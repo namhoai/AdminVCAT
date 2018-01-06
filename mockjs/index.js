@@ -25,10 +25,4 @@ const logout = {
 const asynData = {
   'data': '@email'
 };
-// console.log('mockjs...');
-// Mock.mock(/1\.txt$/, data);
-// Mock.mock(/2\.txt$/, data1);
-// Mock.mock(/login$/, login);
-// Mock.mock(/logout$/, logout);
-// // Mock.mock(/data.json$/, asynData);
-// Mock.setup({ timeout: '200-600' });
+
